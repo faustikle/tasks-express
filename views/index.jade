@@ -1,5 +1,89 @@
 extends layouts/layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .col-md-4.col-md-offset-4
+    .tasklist
+      .row
+        .col-md-12
+          input(type='text', placeholder='Nova Tarefa', class='form-control')
+      hr
+      .row
+        .col-md-12
+          .tasks
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 1
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 0%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 2
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 43%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 3
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 2%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 4
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 76%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 5
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 100%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 6
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 98%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 7
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 59%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 8
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 32%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 9
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 10%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 10
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 60%')
+            .task
+              .checkbox
+                label
+                  input(type='checkbox')
+                  |Tarefa 11
+              .progress
+                div(class='progress-bar progress-bar-success', style='width: 30%')

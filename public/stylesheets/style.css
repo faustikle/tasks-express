@@ -1,8 +1,14 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #eee;
+  padding: 40px 0;
 }
 
-a {
-  color: #00B7FF;
+.tasklist {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.tasks {
+  margin-left: 20px;
 }
